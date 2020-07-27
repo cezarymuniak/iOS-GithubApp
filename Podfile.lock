@@ -1,0 +1,43 @@
+PODS:
+  - Alamofire (4.9.1)
+  - AlamofireObjectMapper (5.2.1):
+    - Alamofire (~> 4.7)
+    - ObjectMapper (~> 3.4)
+  - DisplaySwitcher (2.0)
+  - ObjectMapper (3.5.3)
+  - R.swift (5.2.2):
+    - R.swift.Library (~> 5.2.0)
+  - R.swift.Library (5.2.0)
+  - SDWebImage (5.8.4):
+    - SDWebImage/Core (= 5.8.4)
+  - SDWebImage/Core (5.8.4)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.2)
+  - AlamofireObjectMapper (~> 5.2)
+  - DisplaySwitcher (~> 2.0)
+  - R.swift
+  - SDWebImage
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireObjectMapper
+    - DisplaySwitcher
+    - ObjectMapper
+    - R.swift
+    - R.swift.Library
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AlamofireObjectMapper: 1989f690e982b71921b9253f53a4f33a9bc00d88
+  DisplaySwitcher: 1db23ee6a45fbebac733917cc002204adad37d28
+  ObjectMapper: 97111c97e054a6ee25917662106689f0b4127b37
+  R.swift: 7c52cdc57a66840ffe6cbd8a823d732059d42a32
+  R.swift.Library: 5ba4f1631300caf9a4d890186930da85d540769d
+  SDWebImage: cf6922231e95550934da2ada0f20f2becf2ceba9
+
+PODFILE CHECKSUM: 15be0314842867874584967e00082bf2a3373d69
+
+COCOAPODS: 1.9.3

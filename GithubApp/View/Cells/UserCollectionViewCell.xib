@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="adventpro-light.ttf">
+            <string>AdventPro-Light</string>
+        </array>
+        <array key="adventpro-regular.ttf">
+            <string>AdventPro-Regular</string>
+        </array>
+        <array key="adventpro-semibold.ttf">
+            <string>AdventPro-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="UserCollectionViewCell" reuseIdentifier="UserCollectionViewCell" id="iTD-EW-E1o" customClass="UserCollectionViewCell" customModule="GithubApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9hy-H3-fSK">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+                        <color key="backgroundColor" red="0.9999235272" green="1" blue="0.99988299609999998" alpha="0.25088028169014087" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Created at" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="12J-wA-vO2">
+                        <rect key="frame" x="95" y="46" width="74" height="24"/>
+                        <fontDescription key="fontDescription" name="AdventPro-Regular" family="Advent Pro" pointSize="20"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Repo Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m3V-lk-FwJ">
+                        <rect key="frame" x="95" y="15" width="90.5" height="24"/>
+                        <fontDescription key="fontDescription" name="AdventPro-SemiBold" family="Advent Pro" pointSize="20"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="das-8e-kjg" userLabel="Container View">
+                        <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Repo Name" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2XI-sh-c34">
+                                <rect key="frame" x="10" y="40" width="59" height="36"/>
+                                <fontDescription key="fontDescription" name="AdventPro-Light" family="Advent Pro" pointSize="15"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="2XI-sh-c34" firstAttribute="leading" secondItem="das-8e-kjg" secondAttribute="leading" constant="10" id="Uc3-af-9TY"/>
+                            <constraint firstAttribute="trailing" secondItem="2XI-sh-c34" secondAttribute="trailing" priority="750" constant="11" id="WGp-n0-Td2"/>
+                            <constraint firstAttribute="bottom" secondItem="2XI-sh-c34" secondAttribute="bottom" constant="4" id="vYi-fV-s76"/>
+                        </constraints>
+                    </view>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Fwl-zw-8Zc">
+                        <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="80" id="C0b-ZO-nf7"/>
+                            <constraint firstAttribute="width" constant="80" id="efP-Qx-ibp"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="Fwl-zw-8Zc" firstAttribute="leading" secondItem="iTD-EW-E1o" secondAttribute="leading" id="3qv-Fq-HJY"/>
+                <constraint firstAttribute="trailing" secondItem="9hy-H3-fSK" secondAttribute="trailing" id="4yT-UP-HnX"/>
+                <constraint firstItem="12J-wA-vO2" firstAttribute="top" secondItem="m3V-lk-FwJ" secondAttribute="bottom" constant="7" id="79l-4s-6p8"/>
+                <constraint firstItem="Fwl-zw-8Zc" firstAttribute="top" secondItem="iTD-EW-E1o" secondAttribute="top" id="Aub-C6-MBA"/>
+                <constraint firstItem="9hy-H3-fSK" firstAttribute="leading" secondItem="iTD-EW-E1o" secondAttribute="leading" id="Ee1-lG-o6Y"/>
+                <constraint firstAttribute="bottom" secondItem="das-8e-kjg" secondAttribute="bottom" id="Hwh-fB-U9q"/>
+                <constraint firstItem="das-8e-kjg" firstAttribute="top" secondItem="iTD-EW-E1o" secondAttribute="top" id="Vs4-e2-VlZ"/>
+                <constraint firstItem="9hy-H3-fSK" firstAttribute="top" secondItem="iTD-EW-E1o" secondAttribute="top" id="eYy-Hc-D7H"/>
+                <constraint firstItem="Fwl-zw-8Zc" firstAttribute="width" secondItem="das-8e-kjg" secondAttribute="width" id="hXt-DQ-8hi"/>
+                <constraint firstItem="m3V-lk-FwJ" firstAttribute="leading" secondItem="iTD-EW-E1o" secondAttribute="leading" constant="95" id="ihZ-rM-nCV"/>
+                <constraint firstItem="12J-wA-vO2" firstAttribute="leading" secondItem="iTD-EW-E1o" secondAttribute="leading" constant="95" id="oMH-Dp-Yvc"/>
+                <constraint firstAttribute="bottom" secondItem="9hy-H3-fSK" secondAttribute="bottom" id="pJX-ll-h7w"/>
+                <constraint firstItem="m3V-lk-FwJ" firstAttribute="top" secondItem="iTD-EW-E1o" secondAttribute="top" constant="15" id="tBU-u1-4e3"/>
+                <constraint firstItem="das-8e-kjg" firstAttribute="leading" secondItem="iTD-EW-E1o" secondAttribute="leading" id="xfT-Rh-X4Z"/>
+            </constraints>
+            <size key="customSize" width="329" height="50"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                    <integer key="value" value="10"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="avatarImageView" destination="Fwl-zw-8Zc" id="S6S-zx-kuv"/>
+                <outlet property="avatarImageViewHeightConstraint" destination="C0b-ZO-nf7" id="IVb-m2-tb3"/>
+                <outlet property="avatarImageViewWidthConstraint" destination="efP-Qx-ibp" id="Te6-q5-3hd"/>
+                <outlet property="backgroundCellView" destination="9hy-H3-fSK" id="D43-6H-Hbs"/>
+                <outlet property="createdDateLabelLeadingConstraint" destination="oMH-Dp-Yvc" id="16j-ff-lpX"/>
+                <outlet property="createdLabel" destination="12J-wA-vO2" id="Mua-KZ-pf9"/>
+                <outlet property="nameGridLabel" destination="2XI-sh-c34" id="8du-Y4-7uy"/>
+                <outlet property="nameLabel" destination="m3V-lk-FwJ" id="sGB-b3-vzW"/>
+                <outlet property="nameLabelLeadingConstraint" destination="ihZ-rM-nCV" id="KI6-yv-ZBX"/>
+            </connections>
+            <point key="canvasLocation" x="389" y="223"/>
+        </collectionViewCell>
+    </objects>
+</document>
